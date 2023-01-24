@@ -5,25 +5,28 @@
 -----------------------------------
 STEP 1 (Locating Files):
 -----------------------------------
+```
 Locate stadium effect folder for the stadium you want to modify
 
 BACKUP The Asset Folder just incase
 
 Path: [STADIUM]\Asset\model\bg\[stxxx]\effect\#Win
-
+```
 ------------------------
 File Suffix Meanings
 ------------------------
+```
 df ----> Day Fine  
 dr ----> Day Rainy  
 nf ----> Night Fine  
 nr ----> Night Rainy  
-
+```
 Choose the fpk (not fpkd) of the weather condition you want smokes to appear for.
 
 -----------------------------------
 STEP 2 (Prepping For Modification):
 -----------------------------------
+```
 Drag the fpk in the effect folder you want to modify onto PES ARCHIVE TOOL.
 
 There should now be an xml file generated in the same folder and a folder with the same name as the fpk
@@ -31,12 +34,13 @@ There should now be an xml file generated in the same folder and a folder with t
 Within the new folder generated, there will be an effect_config file.
 
 Open effect_config, scroll to the bottom and paste the code from the code file attached between the setting and effect tags as shown in the image.
-
+```
 ![image](https://user-images.githubusercontent.com/77795437/210905736-70d31a31-b825-41d9-bd4c-08468612007c.png)
 
 --------------------------------------
 STEP 3 (Creating first smoke element):
 --------------------------------------
+```
 scroll to the last create tag in the document and paste the following below it
 
 <create type="SmokeBomb2" setting="1" floor="upper" dir="back" />
@@ -53,13 +57,13 @@ n+3 = smoke
 Items of the same type are 3 indexes away from each other
 
 Since the setting of the create is set to 1, the corresponding values that can be edited for it are in setting index 1
-
+```
 -----------------------------------
 STEP 4 (Modifying smoke element):
 -----------------------------------
 
 ![image](https://user-images.githubusercontent.com/77795437/210905815-39a5642a-44a9-4c4f-8f83-049e7d1fda55.png)
-
+```
 Within setting indexes, there are a lot of parameters as shown above.
 
 Key Values: (Experiment with the others)
@@ -77,11 +81,12 @@ Go back to [STADIUM]\Asset\model\bg\[stxxx]\effect\#Win
 
 Drag xml file onto the archive tool and it will overwrite the previous fpk file.
 If you want to leave the original stadium untouched, save your modifed fpk somewhere else and replace the stadium asset folder with the backup
-
+```
 -----------------------------------
 STEP 5 (Creating an AddOn):
------------------------------------
+-----------------------------------  
 
+```
 If your stadium has an existing AddOn folder just create a new folder within AddOn with the following structure
 
 AddOn\[yourfoldername]\Global\Asset\model\bg\[stxxx]\effect\#Win (where [stxxx] is the stadium ID)
@@ -99,10 +104,13 @@ In addon_config add 01 = yourfoldername
 then put your modified fpk in #win
 
 Now you can edit the fpk via the Addon folder rather than working on the Stadium directly
+```
 ------------------------------------------------------------------------------
 ADDITIONAL ADDON STRUCTURE FOR COMPETITION BASED SMOKES
--------------------------------------------------------------------------------
+-------------------------------------------------------------------------------  
+```
 AddOn\[yourfoldername]\Comp\[COMPID]\Asset\model\bg\[stxxx]\effect\\#Win
+```
 
 NOTES:  
 -If all has been done correctly, when you load into a match, you will see a white mist in the middle of the pitch.  
