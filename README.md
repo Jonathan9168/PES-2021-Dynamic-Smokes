@@ -46,9 +46,9 @@ scroll to the last create tag in the document and paste the following below it
 <create type="SmokeBomb2" setting="1" floor="upper" dir="back" />
 
 A "setting" corresponds to the index of the item you want to put in the game.
-
+```
 ![image](https://user-images.githubusercontent.com/77795437/210905775-f15c1beb-1d92-4e91-b9e7-4cb41f6cc9bf.png)
-
+```
 Indexes work such that if n = 1 (Smoke)
 n+1 = flare
 n+2 = fire
