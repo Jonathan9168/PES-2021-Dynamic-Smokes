@@ -33,7 +33,7 @@ There should now be an xml file generated in the same folder and a folder with t
 
 Within the new folder generated, there will be an effect_config file.
 
-Open effect_config, scroll to the bottom and paste the code from the code file attached between the setting and effect tags as shown in the image.
+Open effect_config, scroll to the bottom and paste the code from the smokes file attached between the <create> and <effect> tags as shown in the image.
 ```
 ![image](https://user-images.githubusercontent.com/77795437/210905736-70d31a31-b825-41d9-bd4c-08468612007c.png)
 
@@ -41,7 +41,7 @@ Open effect_config, scroll to the bottom and paste the code from the code file a
 STEP 3 (Creating first smoke element):
 --------------------------------------
 ```
-scroll to the last create tag in the document and paste the following below it
+At the end of the to the last create element, <create type="SmokeBomb" setting="0" floor="upper" dir="back" /> we can add new items into the game. E.g. below we add a smoke element
 
 <create type="SmokeBomb2" setting="1" floor="upper" dir="back" />
 
@@ -49,14 +49,9 @@ A "setting" corresponds to the index of the item you want to put in the game.
 ```
 ![image](https://user-images.githubusercontent.com/77795437/210905775-f15c1beb-1d92-4e91-b9e7-4cb41f6cc9bf.png)
 ```
-Indexes work such that if n = 1 (Smoke)
-n+1 = flare
-n+2 = fire
-n+3 = smoke
+Since the "setting" attribute of the create element <create setting="1"></create> is set to 1, the corresponding values that can be edited for it are in the setting element with index attribute 1 <setting index="1"></setting> 
 
-Items of the same type are 3 indexes away from each other
-
-Since the setting of the create is set to 1, the corresponding values that can be edited for it are in setting index 1
+To add more elements, simply copy a base <setting> for a smoke, flare or fire and increment the index then add the corresponding <create> element
 ```
 -----------------------------------
 STEP 4 (Modifying smoke element):
@@ -64,7 +59,7 @@ STEP 4 (Modifying smoke element):
 
 ![image](https://user-images.githubusercontent.com/77795437/210905815-39a5642a-44a9-4c4f-8f83-049e7d1fda55.png)
 ```
-Within setting indexes, there are a lot of parameters as shown above.
+Within <setting> indexes, there are a lot of parameters as shown above.
 
 Key Values: (Experiment with the others)
 pos: Lets you decide the position of the element in x,y,z format where x is left to right (left being negative); y is up or down (down is negative); z is depth (basically left or right of the stands behind the goals)
