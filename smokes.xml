@@ -1,4 +1,3 @@
-
 <setting type="SmokeBomb" index="0">
 	<param id="initialTime" type="float" value="4.0" />
 	<!-- smoke -->
@@ -64,81 +63,81 @@
 </setting>
 
 <setting type="SmokeBomb2" index="2"><!-- flare creator (look at the texture path) -->
-		<param id="texturePath" type="path" value="/Assets/pes16/model/bg/common/effect/texture/smoke_bomb/o_fire00.ftex" />
-		<param id="spriteNum" type="uint" value="1" />
-		<param id="blendMode" type="uint" value="1" />
-		<param id="initial_time" type="float" value="10" />
-		<param id="pos" type="vector3" value="75, 7, -20" />
-		<param id="dir" type="vector3" value="0, 1, 0" />
-		<param id="spread" type="angle" value="0" />
-		<param id="life" type="float" value="3.125" />
-		<param id="life_range" type="float" value="0.575" />
-		<param id="emit_interval" type="float" value="1.25" />
-		<param id="emit_num" type="uint" value="1" />
-		<param id="speed" type="float" value="0" />
-		<param id="speed_range" type="float" value="0" />
-		<param id="drag" type="float" value="1" />
-		<param id="scale" type="float" value="3" />
-		<param id="scale_range" type="float" value="0" />
-		<param id="scale_offset" type="float" value="0" />
-		<param id="rotate" type="angle" value="0" />
-		<param id="rotate_range" type="angle" value="0" />
-		<param id="rotate_offset" type="angle" value="0" />
-		<param id="opacity_times" type="float" index="0" value="0.0" />
-		<param id="opacity_times" type="float" index="1" value="0.2" />
-		<param id="opacity_times" type="float" index="2" value="0.8" />
-		<param id="opacity_times" type="float" index="3" value="1.0" />
-		<param id="opacity_values" type="float" index="0" value="0.0" />
-		<param id="opacity_values" type="float" index="1" value="0.15" />
-		<param id="opacity_values" type="float" index="2" value="0.20" />
-		<param id="opacity_values" type="float" index="3" value="0.0" />
-		<param id="color_times" type="float" index="0" value="0.0" />
-		<param id="color_times" type="float" index="1" value="1.0" />
-		<param id="color_times" type="float" index="2" value="1.0" />
-		<param id="color_times" type="float" index="3" value="1.0" />
-		<param id="color_values" type="rgba" index="0" value="0xd50606ff" />
-		<param id="color_values" type="rgba" index="1" value="0xd50606ff" />
-		<param id="color_values" type="rgba" index="2" value="0xd50606ff" />
-		<param id="color_values" type="rgba" index="3" value="0xd50606ff" />
+	<param id="texturePath" type="path" value="/Assets/pes16/model/bg/common/effect/texture/smoke_bomb/o_fire00.ftex" />
+	<param id="spriteNum" type="uint" value="1" />
+	<param id="blendMode" type="uint" value="1" />
+	<param id="initial_time" type="float" value="10" />
+	<param id="pos" type="vector3" value="75, 7, -20" />
+	<param id="dir" type="vector3" value="0, 1, 0" />
+	<param id="spread" type="angle" value="0" />
+	<param id="life" type="float" value="3.125" />
+	<param id="life_range" type="float" value="0.575" />
+	<param id="emit_interval" type="float" value="1.25" />
+	<param id="emit_num" type="uint" value="1" />
+	<param id="speed" type="float" value="0" />
+	<param id="speed_range" type="float" value="0" />
+	<param id="drag" type="float" value="1" />
+	<param id="scale" type="float" value="3" />
+	<param id="scale_range" type="float" value="0" />
+	<param id="scale_offset" type="float" value="0" />
+	<param id="rotate" type="angle" value="0" />
+	<param id="rotate_range" type="angle" value="0" />
+	<param id="rotate_offset" type="angle" value="0" />
+	<param id="opacity_times" type="float" index="0" value="0.0" />
+	<param id="opacity_times" type="float" index="1" value="0.2" />
+	<param id="opacity_times" type="float" index="2" value="0.8" />
+	<param id="opacity_times" type="float" index="3" value="1.0" />
+	<param id="opacity_values" type="float" index="0" value="0.0" />
+	<param id="opacity_values" type="float" index="1" value="0.15" />
+	<param id="opacity_values" type="float" index="2" value="0.20" />
+	<param id="opacity_values" type="float" index="3" value="0.0" />
+	<param id="color_times" type="float" index="0" value="0.0" />
+	<param id="color_times" type="float" index="1" value="1.0" />
+	<param id="color_times" type="float" index="2" value="1.0" />
+	<param id="color_times" type="float" index="3" value="1.0" />
+	<param id="color_values" type="rgba" index="0" value="0xd50606ff" />
+	<param id="color_values" type="rgba" index="1" value="0xd50606ff" />
+	<param id="color_values" type="rgba" index="2" value="0xd50606ff" />
+	<param id="color_values" type="rgba" index="3" value="0xd50606ff" />
 </setting>
 
 <setting type="SmokeBomb2" index="3"><!-- fire creator (look at the texture path) -->
-		<param id="texturePath" type="path" value="/Assets/pes16/model/bg/common/effect/texture/smoke_bomb/o_fire01.ftex" />
-		<param id="spriteNum" type="uint" value="1" />
-		<param id="blendMode" type="uint" value="1" />
-		<param id="initial_time" type="float" value="10" />
-		<param id="pos" type="vector3" value="75, 7, -20" />
-		<param id="dir" type="vector3" value="0, 1, 0" />
-		<param id="spread" type="angle" value="0" />
-		<param id="life" type="float" value="1" />
-		<param id="life_range" type="float" value="0.05" />
-		<param id="emit_interval" type="float" value="0.33" />
-		<param id="emit_num" type="uint" value="1" />
-		<param id="speed" type="float" value="0.5" />
-		<param id="speed_range" type="float" value="0" />
-		<param id="drag" type="float" value="1" />
-		<param id="scale" type="float" value="4" />
-		<param id="scale_range" type="float" value="0.3" />
-		<param id="scale_offset" type="float" value="0" />
-		<param id="rotate" type="angle" value="0" />
-		<param id="rotate_range" type="angle" value="0" />
-		<param id="rotate_offset" type="angle" value="0" />
-		<param id="opacity_times" type="float" index="0" value="0.0" />
-		<param id="opacity_times" type="float" index="1" value="0.1" />
-		<param id="opacity_times" type="float" index="2" value="0.8" />
-		<param id="opacity_times" type="float" index="3" value="1.0" />
-		<param id="opacity_values" type="float" index="0" value="0.0" />
-		<param id="opacity_values" type="float" index="1" value="2.0" />
-		<param id="opacity_values" type="float" index="2" value="2.0" />
-		<param id="opacity_values" type="float" index="3" value="0.0" />
-		<param id="color_times" type="float" index="0" value="0.0" />
-		<param id="color_times" type="float" index="1" value="1.0" />
-		<param id="color_times" type="float" index="2" value="1.0" />
-		<param id="color_times" type="float" index="3" value="1.0" />
-		<param id="color_values" type="rgba" index="0" value="0xfc350300" />
-		<param id="color_values" type="rgba" index="1" value="0xfc350300" />
-		<param id="color_values" type="rgba" index="2" value="0xfc350300" />
-		<param id="color_values" type="rgba" index="3" value="0xfc350300" />
+	<param id="texturePath" type="path" value="/Assets/pes16/model/bg/common/effect/texture/smoke_bomb/o_fire01.ftex" />
+	<param id="spriteNum" type="uint" value="1" />
+	<param id="blendMode" type="uint" value="1" />
+	<param id="initial_time" type="float" value="10" />
+	<param id="pos" type="vector3" value="75, 7, -20" />
+	<param id="dir" type="vector3" value="0, 1, 0" />
+	<param id="spread" type="angle" value="0" />
+	<param id="life" type="float" value="1" />
+	<param id="life_range" type="float" value="0.05" />
+	<param id="emit_interval" type="float" value="0.33" />
+	<param id="emit_num" type="uint" value="1" />
+	<param id="speed" type="float" value="0.5" />
+	<param id="speed_range" type="float" value="0" />
+	<param id="drag" type="float" value="1" />
+	<param id="scale" type="float" value="4" />
+	<param id="scale_range" type="float" value="0.3" />
+	<param id="scale_offset" type="float" value="0" />
+	<param id="rotate" type="angle" value="0" />
+	<param id="rotate_range" type="angle" value="0" />
+	<param id="rotate_offset" type="angle" value="0" />
+	<param id="opacity_times" type="float" index="0" value="0.0" />
+	<param id="opacity_times" type="float" index="1" value="0.1" />
+	<param id="opacity_times" type="float" index="2" value="0.8" />
+	<param id="opacity_times" type="float" index="3" value="1.0" />
+	<param id="opacity_values" type="float" index="0" value="0.0" />
+	<param id="opacity_values" type="float" index="1" value="2.0" />
+	<param id="opacity_values" type="float" index="2" value="2.0" />
+	<param id="opacity_values" type="float" index="3" value="0.0" />
+	<param id="color_times" type="float" index="0" value="0.0" />
+	<param id="color_times" type="float" index="1" value="1.0" />
+	<param id="color_times" type="float" index="2" value="1.0" />
+	<param id="color_times" type="float" index="3" value="1.0" />
+	<param id="color_values" type="rgba" index="0" value="0xfc350300" />
+	<param id="color_values" type="rgba" index="1" value="0xfc350300" />
+	<param id="color_values" type="rgba" index="2" value="0xfc350300" />
+	<param id="color_values" type="rgba" index="3" value="0xfc350300" />
 </setting>
 
 <create type="SmokeBomb" setting="0" floor="upper" dir="back" />  
