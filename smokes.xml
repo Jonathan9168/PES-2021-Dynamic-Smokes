@@ -100,7 +100,7 @@
 		<param id="color_values" type="rgba" index="1" value="0xd50606ff" />
 		<param id="color_values" type="rgba" index="2" value="0xd50606ff" />
 		<param id="color_values" type="rgba" index="3" value="0xd50606ff" />
-	</setting>
+</setting>
 
 <setting type="SmokeBomb2" index="3"><!-- fire creator (look at the texture path) -->
 		<param id="texturePath" type="path" value="/Assets/pes16/model/bg/common/effect/texture/smoke_bomb/o_fire01.ftex" />
@@ -139,6 +139,6 @@
 		<param id="color_values" type="rgba" index="1" value="0xfc350300" />
 		<param id="color_values" type="rgba" index="2" value="0xfc350300" />
 		<param id="color_values" type="rgba" index="3" value="0xfc350300" />
-	</setting>
+</setting>
 
-	<create type="SmokeBomb" setting="0" floor="upper" dir="back" />  
+<create type="SmokeBomb" setting="0" floor="upper" dir="back" />  
