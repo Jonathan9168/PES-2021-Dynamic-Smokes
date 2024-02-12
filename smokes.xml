@@ -140,4 +140,4 @@
 	<param id="color_values" type="rgba" index="3" value="0xfc350300" />
 </setting>
 
-<create type="SmokeBomb" setting="0" floor="upper" dir="back" />  
+<create type="SmokeBomb2" setting="0" floor="upper" dir="back" />  
